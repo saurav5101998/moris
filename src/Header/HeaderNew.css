@@ -1,0 +1,196 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(DMSans-Medium.ttf);
+ }
+
+.HeaderUpper{
+/* max-height: 50px; */
+/* background-color: #6d007d; */
+
+}
+
+.Header1Level{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6d007d;
+    height: 58px;
+}
+
+.NavClass{
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    padding: 10px;
+    color: #fff;
+
+}
+
+.NavClass a{
+    font-family: 'arial';
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+    color: #fff;
+}
+
+.NavClass a:hover{
+    cursor: pointer;
+    color: #ef1855;
+}
+
+.NavClass p{
+    font-family: 'arial';
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.IconsUnderNavClass{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+/* background-color: #ef1855; */
+color: "#fff";
+}
+
+.IconsUnderNavClass:hover{
+    cursor: pointer;
+    color: #ef1855;
+    /* transition: 1s ease-in #ef1855; */
+}
+
+.managerLoginButton{
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #92409e;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 8px;
+    font-size: 14px;
+    margin-left: 10px;
+    height: 38px;
+
+}
+
+.managerLoginButton:hover{
+    cursor: pointer;
+    background-color:#fff ;
+    color: red;
+}
+
+/* 2nd level Header starts here  */
+
+.Header2Level{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.insideHeader2Level{
+    display: flex;
+    /* padding-right: 15px; */
+    padding: 5px;
+}
+
+.insideHeader2Level P{
+    color: black;
+    margin-right: 5px;
+    font-size: 13.5px;
+}
+
+.ArrowHandler{
+    color: blanchedalmond;
+    height: 10px;
+}
+
+.redBagroundForRockert{
+    background-color: #ef1855;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* padding: 5px; */
+    position: relative;
+    /* margin-right: 15px; */
+    /* overflow: hidden; */
+    width: 130px;
+}
+
+.redBagroundForRockert:hover{
+    cursor: pointer;
+}
+
+.redBagroundForRockert a{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.SearchIcon:hov{
+    cursor: pointer;
+}
+
+.reactMenuIcon:hover{
+    cursor: pointer;
+}
+
+a, button {
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.CloudUnderRedBaground{
+    width: 70%;
+    position: absolute;
+    top: 37px;
+    right: 20px;
+    width: 97px;
+}
+
+.Rocket{
+    -webkit-animation: rocket-animation 5s infinite;
+    -moz-animation: rocket-animation 5s infinite;
+    -o-animation: rocket-animation 5s infinite;
+    animation: rocket-animation 5s infinite;
+    position: absolute;
+    top: -3px;
+    right: 26px;
+    width: 30px
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.Cloud{
+    position: absolute;
+    top: 34px;
+    right: 16px;
+    width: 100px;
+}
+
+.Header2LevelNew{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+}
+
+.insideHeader2Level:hover{
+    color: #ef1855;
+    cursor: pointer;;
+}
+
+.insideHeader2Level p:hover{
+    color: #ef1855;
+    cursor: pointer;
+    /* font-weight: 500; */
+}

@@ -1,0 +1,264 @@
+.UpperFooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #400049;
+    padding: 20px 40px;
+    border-bottom: 1px solid #fff;
+    /* margin-bottom: 0px; */
+    /* position: relative; */
+}
+
+.UpperFooter img{
+    margin-left: 25px;
+}
+
+.LogoRoundCircle{
+    background: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* padding: auto; */
+    display: flex;
+}
+
+.FacebookLogoround{
+    margin: auto;
+    color: #ee1f4d;
+}
+
+.LogoRoundCircle:hover{
+    cursor: pointer;
+    background-color: #ee1f4d;
+    color: #fff;
+}
+.FacebookLogoround:hover{
+    color: #fff;
+}
+
+.CicleDiv{
+    width: 19%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.LowerFooterDiv{
+    /* display: inline-flex; */
+    /* flex-direction: row-reverse; */
+    display: flex;
+}
+
+.LowerFooterInside{
+    display: flex;
+}
+
+.InsideLowerFooter{
+
+}
+
+.Lowerfooter{
+    background-color: #66326d;
+    height: 100%;
+}
+
+.Lowerfooter p{
+    margin: 0;
+}
+
+.LowerDiv2Level{
+    background-color: #400049;
+    height: 100%;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.insideLowerDivCompany{
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.DateFilterForCalender{
+    color: #ee1f4d;
+}
+
+p{
+    margin-top: 0;  
+}
+
+.InsideLowerDiv2Level p{
+margin-top: 0;
+color: #fff;
+font-weight: 450;
+margin-bottom: 14px;
+}
+.contactUsDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.HeadlingUnderLowerDiv{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.ArrowHandlerForFooter{
+    margin-top: 3px;
+    rotate: 25deg;
+    /* font-weight: 700; */
+    color: yellow;
+    margin-right: 5px;
+}
+.ArrowHandlerForFooter:hover{
+    transform: rotate(69deg);
+    cursor: pointer;
+    /* transition: 1s ; */
+    -webkit-transition: all 0.3s ease-in-out;
+
+}
+
+.CalenderForBusiness{
+    color: #ee1f4d;
+    font-size: 18px;
+    margin: 2px;
+    margin-right: 7px;
+}
+
+.InputForPraposal{
+    width: 200px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 18px;
+    margin-bottom: 12px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.ButtonForPraposal{
+    display: inline-block;
+    background-color: #ee1f4d;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    border: 2px solid transparent;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    font-size: 15px;
+}
+
+.InsideLowerDiv2Level{
+    /* margin-right: auto; */
+    margin-left: 25px;
+}
+
+.UpperDivInsideLevel2Footer{
+    width: 100%;
+    background-color: #400049;
+    display: flex;
+    justify-content: center;
+}
+
+.DivInsideLevel2Footer{
+    background-color: #4b0056;
+    border-radius: 10px;
+    padding: 8px;
+    display: inline-block;
+    width: 87%;
+    margin: 20px 0;
+    -webkit-box-shadow: 1px 1px 38px 10px rgb(0 0 0 / 15%);
+    box-shadow: 1px 1px 38px 10px rgb(0 0 0 / 15%);
+    display: flex;  
+    justify-content: space-between;
+}
+
+@media (max-width:1150px){
+    .VisaCardDiv{
+flex-wrap: wrap;
+    }
+}
+
+@media (max-width:949px){
+    .DivInsideLevel2Footer{
+        width: 93%;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media (max-width:1024px){
+    .DivInsideLevel2Footer{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+}
+
+.DivInsideLevel2Footer p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ee1f4f;
+    margin-top: 10px;
+}
+
+.ImageFlter{
+    width: 191px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.ImageFlter2{
+    width: 102px;
+    height: 52px;
+    margin-top: 4px;
+}
+
+.ImageFlter3{
+    width: 155px;
+    height: 35px;
+    margin-top: 10px;
+}
+.ImageFlter4{
+    width: 130px;
+    height: 37px;
+    margin-top: 10px;
+}
+
+.VisaCardDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+.Visacard{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    padding: 10px;
+    height: 35px;
+}
+
+.CopyRightDiv{
+    padding: 10px 0 30px;
+    text-align: center!important;
+}
+
+.CopyRightDiv p{
+    margin: 0;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
